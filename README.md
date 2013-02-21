@@ -2,6 +2,9 @@
 ===============
 This is a simple busy service for AngularJs. It allows you to set a busy message, timeout value and css class for dom container.
 
+Click for a demo:
+http://jsfiddle.net/tansu/7xnNU/1/
+
 ##Typical Usage inside a controller
 <pre>
 function AppCtrl($scope, appBusy) {
