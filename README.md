@@ -9,7 +9,6 @@ function AppCtrl($scope, appBusy) {
     appBusy.set();
 
     setTimeout(function () {
-
         // set a custom message
         appBusy.set("Still loading ...");
     }, 2000);
