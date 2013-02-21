@@ -21,5 +21,17 @@ function AppCtrl($scope, appBusy) {
 }
 </pre>
 
+##Configuration
 
+Below is a sample configuration
+<pre>
+angular.module('myApp', ['kalitte.services'])
+.config(function (appBusyProvider) {
+    appBusyProvider.setMsg('Loading ...');
+    appBusyProvider.setTimeout(500);
+    appBusyProvider.setClazz('appBusy');
+});
+
+</pre>
+Enjoy!
 
