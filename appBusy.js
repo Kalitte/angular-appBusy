@@ -65,8 +65,8 @@ var appServices = angular.module('kalitte.services', []).provider("appBusy", fun
     }
 });
 
-appServices.config(function (appBusyProvider) {
-    appBusyProvider.setMsg('Loading ...');
-    appBusyProvider.setTimeout(1000);
-    appBusyProvider.setClazz('appBusy');
-});
+//appServices.config(function (appBusyProvider) {
+//    appBusyProvider.setMsg('Loading ...');
+//    appBusyProvider.setTimeout(1000);
+//    appBusyProvider.setClazz('appBusy');
+//});
