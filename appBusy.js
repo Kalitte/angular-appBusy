@@ -47,7 +47,7 @@ var appServices = angular.module('kalitte.services', []).provider("appBusy", fun
             set: function (msg) {
                 if (typeof msg == 'boolean') {
                     msg === true ? self.show() : self.hide();
-                } else this.show(msg);
+                } else self.show(msg);
             }
         }
     }
